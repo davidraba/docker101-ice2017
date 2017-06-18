@@ -1,0 +1,1 @@
+docker run -p 8888:5000 --name web1 david/lamevaweb

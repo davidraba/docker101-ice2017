@@ -22,5 +22,9 @@ Hello from Docker.
 This message shows that your installation appears to be working correctly.
 ...
 ```
+
+[Docker without root privileges](https://docs.docker.com/engine/installation/linux/linux-postinstall/)
+
 ## Next Steps
+
 For the next step in the tutorial, head over to [1.0 Running your first container](alpine.md)
