@@ -1,8 +1,8 @@
-## Docker for beginners
+## Curs d'introducció a Docker 
 
-This tutorial consists of below sections.
+Aquest tutorial consta de les sessions següents:
 
-* [Setup](chapters/setup.md)
-* [1.0 Running your first container](chapters/alpine.md)
-* [2.0 Webapps with Docker](chapters/webapps.md)
-* [3.0 Run a multi-container app with Docker Compose](chapters/votingapp.md)
+* [Configuració](chapters/setup.md)
+* [Sessio 1. Running your first container](sessions/alpine.md)
+* [Sessió 2. Webapps with Docker](sessions/webapps.md)
+* [Sessió 3. Run a multi-container app with Docker Compose](sessions/votingapp.md)
