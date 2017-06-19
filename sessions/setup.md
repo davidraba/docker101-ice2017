@@ -1,14 +1,15 @@
 ## Setup
 
-### Prerequisites
-There are no specific skills needed for this tutorial beyond a basic comfort with the command line and using a text editor. Prior experience in developing web applications will be helpful but is not required. As you proceed further along the tutorial, we'll make use of [Docker Hub](https://hub.docker.com/).
+### Prerequisits
+No hi ha cap requisit previ a banda de una certa experiència amb l'ús de la inteficie de comandes i l'editor de textes. Farem us de [Docker Hub](https://hub.docker.com/) al llarg de les sessions.
 
-### Setting up your computer
-Getting all the tooling setup on your computer can be a daunting task, but thankfully getting Docker up and running on your favorite OS has become very easy.
+### Configurant el teu PC
+La conofiguració de l'entorn és molt fàcil avuí dia i es disposa de instruccions i scripts adaptats per la majoria de distribucions i versiona de sistema operatiu.
 
-The *getting started* guide on Docker has detailed instructions for setting up Docker on [Mac](http://docs.docker.com/mac/step_one/), [Linux](http://docs.docker.com/linux/step_one/) and [Windows](http://docs.docker.com/windows/step_one/).
+La guia d'introducció (*getting started* guide a Docker) conté instruccions detallades per la configuració de Docker a [Mac](http://docs.docker.com/mac/step_one/), [Linux](http://docs.docker.com/linux/step_one/) i [Windows](http://docs.docker.com/windows/step_one/).
 
-Once you are done installing Docker, test your Docker installation by running the following:
+Un cop finalitzada la instal·lació pots testejar que funciona correctament:
+
 ```
 $ docker run hello-world
 Unable to find image 'hello-world:latest' locally
@@ -23,8 +24,8 @@ This message shows that your installation appears to be working correctly.
 ...
 ```
 
-[Docker without root privileges](https://docs.docker.com/engine/installation/linux/linux-postinstall/)
+Sovint un pas previ contempla configurar docker per no haver de necesitar permisos de root per poder operar [Docker without root privileges](https://docs.docker.com/engine/installation/linux/linux-postinstall/)
 
-## Next Steps
+## Següents passes
 
-For the next step in the tutorial, head over to [1.0 Running your first container](alpine.md)
+Per continuar les sessions podeu clcak cap a [1.0 Executant el primer container ](alpine.md)
