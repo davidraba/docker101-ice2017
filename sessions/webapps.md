@@ -1,8 +1,10 @@
-## 2.0 Webapps with Docker
-Great! So you have now looked at `docker run`, played with a docker container and also got a hang of some terminology. Armed with all this knowledge, you are now ready to get to the real-stuff i.e. deploying web applications with Docker.
+## 2.0 Webapps amb Docker
 
-### 2.1 Static Sites
-_Code for this section is in this repo in the [static-site directory](https://github.com/docker/labs/tree/master/beginner/static-site)_
+Be, fins ara ja tenim clar en què consisteix `docker run`, hem jugat una mica i comencem a teinr clars en que consisteixen els containers
+Amb això, potser que comencem a fer coses realistes i útils com per exemple un deploy d'una web.
+
+### 2.1 Sites estàtics
+_El codi d'aquesta activitat el podeu trobar a [static-site directory](https://github.com/docker/labs/tree/master/beginner/static-site)_
 Let's start by taking baby-steps. The first thing we're going to look at is how you can run a dead-simple static website. You're going to pull a docker image from the docker hub, run the container and see how easy it so to set up a webserver.
 
 The image that you are going to use is a single-page website that was already created for this demo and is available on the Docker Hub as [`seqvence/static-site`](https://hub.docker.com/r/seqvence/static-site/). You can download and run the image directly in one go using `docker run`.
