@@ -1,1 +1,1 @@
-docker run -p 8888:5000 --name web_static david/staticweb
+docker run -p 8888:5000 --name web_static -e AUTHOR="David" -d david/staticweb
