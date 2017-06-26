@@ -1,4 +1,4 @@
-# Aplicatiu connectat a BBDD
+# Aplicatiu connectat a BBDD i replicat amb balanceig
 
 ```
 nginx:
