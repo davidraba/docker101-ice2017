@@ -1,4 +1,5 @@
 nginx:
+    restart: always
     build: ./nginx
     links:
         - node1:node1
@@ -24,6 +25,8 @@ node3:
         - redis
     ports:
         - "8080"
+    volumes:
+        - /tmp:/tmp
 redis:
     image: redis
     ports:
