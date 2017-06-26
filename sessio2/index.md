@@ -1,6 +1,20 @@
 # Sessio 2. Aplicació completa Node.js, Redis i NGiNX amb Docker
 
+```
+docker-compose up
+```
 
+```
+docker-compose up -d 
+```
+
+```
+docker-compose down
+```
+
+```
+docker-compose up --force-recreate
+```
 
 
 # Docker UI
@@ -28,5 +42,10 @@ portainer/portainer \
 
 # Docker Swarm
 
-[!Tutorial configuració Docker Swarm](http://info.crunchydata.com/blog/easy-postgresql-cluster-recipe-using-docker-1.12)
-[!Docker Compose to docker Swarm](https://codefresh.io/blog/deploy-docker-compose-v3-swarm-mode-cluster/)
+Si voleu explorar la utilització de Docker Swarm per fer deploy de bases de
+dades un molt bon article de referencia es aquest:
+[Tutorial configuració Docker Swarm](http://info.crunchydata.com/blog/easy-postgresql-cluster-recipe-using-docker-1.12)
+
+I pel que fa a la revisió de docker compose v3, que facilita molt la feina
+de dimensionar la arquitectura i la conversió a docker swarm:
+[Docker Compose to docker Swarm](https://codefresh.io/blog/deploy-docker-compose-v3-swarm-mode-cluster/)
