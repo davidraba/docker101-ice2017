@@ -3,9 +3,10 @@
 Aquest tutorial consta de les sessions següents:
 
 * [Configuració](sessions/setup.md)
-* [Sessio 1. Running your first container](sessions/alpine.md)
-* [Sessió 2. Webapps with Docker](sessions/webapps.md)
-* [Sessió 3. Run a multi-container app with Docker Compose](sessions/votingapp.md)
+* [Sessio 1 - Running your first container](sessions/alpine.md)
+* [         - Webapps with Docker](sessions/webapps.md)
+* [Sessió 2 - Run a multi-container app with Docker Compose](sessio2/index.md)
+* [Sessió 3 - Projecte d'aquitectura web/api](sessio3/index.md)
 
 Per tutorials avançats teniu referències com:
 
