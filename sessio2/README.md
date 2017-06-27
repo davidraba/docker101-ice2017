@@ -21,8 +21,9 @@ docker-compose up --force-recreate
 ##Aplicació completa Node.js, Redis i NGiNX amb Docker
 
 * [Pas 1 - Node.js + Redis](simple)
-* [Pas 2 - NGiNX + Node.js + Redis](lb-simple)
-* [Pas 3 - NGiNX + X Node.js + Redis](amb-volumes)
+* [Pas 2 - Node.js + Redis amb volum a host](simple-amb-volumes)
+* [Pas 3 - NGiNX + Node.js + Redis](lb-simple)
+* [Pas 4 - NGiNX + X Node.js + Redis](amb-volumes)
 
 # Docker UI
 
