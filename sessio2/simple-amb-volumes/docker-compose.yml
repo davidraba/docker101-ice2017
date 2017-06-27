@@ -1,0 +1,12 @@
+node:
+    build: ./node-vol
+    links:
+        - redis
+    ports:
+        - "80:8080"
+    volumes:
+        - /src:/src
+redis:
+    image: redis
+    ports:
+        - "6379"
