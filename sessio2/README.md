@@ -1,4 +1,4 @@
-# Sessio 2. Interconnexionat de containers
+# Sessio 2. Definició d'arquitectures
 
 ## Docker Compose
 
